@@ -11,7 +11,7 @@ section {
 #page-banner {
     position: fixed;
     min-height: var(--banner-size);
-    background-color: rgb(59, 154, 199);
+    background-color: rgb(209, 62, 202);
     padding-bottom: 0em;
     width: 100%;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
