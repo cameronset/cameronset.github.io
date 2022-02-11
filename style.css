@@ -36,11 +36,11 @@ img {
     text-align: left;
     border: 1em solid black;
     padding: 1em;
+    background-color: grey;
 }
 
-/*Gives both skill lists a grey background and white text*/
+/*Gives both skill lists white text*/
 .skill-list {
-    background-color: grey;
     color: white;
 }
 /*Changes the font of the skills*/
