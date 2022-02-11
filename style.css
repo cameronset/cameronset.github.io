@@ -1,0 +1,49 @@
+:root{
+    --banner-size: 21em;
+}
+/*Adds padding to all of the sections*/
+section {
+    padding-bottom: 30em;
+    padding-top: var(--banner-size);
+}
+
+/*manages the banner of the website*/
+#page-banner {
+    position: fixed;
+    min-height: var(--banner-size);
+    background-color: rgb(59, 154, 199);
+    padding-bottom: 0em;
+    width: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Manages all the h2s on the website*/
+h2 {
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: red;
+}
+
+/*Controls the size of the image*/
+img {
+    width: 15em;
+    height: 15em;
+}
+
+/*Boxes up the skills*/
+.skills-section {
+    display: inline-block;
+    text-align: left;
+    border: 1em solid black;
+    padding: 1em;
+}
+
+/*Gives both skill lists a grey background and white text*/
+.skill-list {
+    background-color: grey;
+    color: white;
+}
+/*Changes the font of the skills*/
+#skills {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
